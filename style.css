@@ -7,8 +7,8 @@ body{
 /* HEADER */
 .header{
     padding: 30px 5px;
-    width: 100%;
-    position: fixed;   
+    /* width: 100%;
+    position: fixed;    */
     
 }
 
@@ -33,15 +33,16 @@ body{
 }
 .header_content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
 .header_content-right{
     color:white;
     font-style: normal;
 }
 .icon_plus{
-margin-right: 15px;
+    margin-right: 15px;
     font-style: normal;
     font-size: 27px;
     padding: 1px 3px;
@@ -53,3 +54,80 @@ margin-right: 15px;
     font-size: 35px;
 }
 
+/* .info_page{
+    margin: 20px auto;
+}  */
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+/* .info{
+    width: 25%;
+
+} */
+.img{
+    width: 105px;
+    height: 110px;
+    border-radius: 60%;
+} 
+.name{
+    color: white;
+    font-weight: 500;
+}
+.accaunt{
+    color: white;
+}
+
+
+/* INFO_PAGE */
+/* .statistic{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+} */
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+/* .follow_item{
+    flex: 1 1 0;
+} */
+.public, .following_text, .followers,.followers_text, .following,.following_text{
+    color: white;
+}
+.info{
+    line-height: 6px;
+}
+.name{
+    font-weight: 500;
+    font-size: 18px;
+}
+.edit_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.button{
+    width: 340px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color:black ;
+    border: 1px solid rgb(107, 97, 97);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+.person{
+    padding: 7px 4px;
+    border: 1px solid rgb(107, 97, 97);;
+    border-radius: 4px;
+    color: white;
+}
