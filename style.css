@@ -96,11 +96,15 @@ align-items: center;
     justify-content: space-between;
    
 }
-/* .follow_item{
-    flex: 1 1 0;
-} */
-.public, .following_text, .followers,.followers_text, .following,.following_text{
+.follow_item{
+   text-align: center;
+}
+.number, .following_text,.followers_text,.following_text{
     color: white;
+}
+.number{
+    font-weight: 700;
+    font-size: 20px;
 }
 .info{
     line-height: 6px;
