@@ -135,3 +135,43 @@ align-items: center;
     border-radius: 4px;
     color: white;
 }
+
+/* topical */
+.topical_page{
+    margin-top: 30px;
+}
+.topical{
+    display: flex;
+    justify-content:space-around
+}
+.topical_item{
+    text-align: center;
+}
+
+.img_small{
+    width: 63px;
+    height: 65px;
+    border-radius: 60%;
+    border: 2px solid rgb(180, 164, 164);
+}
+.img_small_first{
+    width: 66px;
+    height: 64px;
+    border-radius: 60%;
+    border: 2px solid rgb(180, 164, 164);
+}
+.topical_item_icon{
+    font-size: 30px;
+    color: rgb(41, 35, 35);
+}
+.topical_item_text{
+    color: white;
+    font-size: 15px;
+}
+.topical_item_plus{
+    font-size: 16px;
+    padding: 23px 25px;
+    border: 2px solid rgb(180, 164, 164);;
+    border-radius: 50%;
+    color: white;
+}
